@@ -33,7 +33,7 @@ const FullScreenMode = ({ url, isOpen, setIsOpen }: any) => {
       };
 
       try {
-        const { width: imageWidth, height: imageHeight } = await getImageDimensions(`${process.env.NEXT_PUBLIC_API_DOMAIN}/${url}`);
+        const { width: imageWidth, height: imageHeight } = await getImageDimensions(`/${url}`);
 
         const width = document.documentElement.clientWidth;
         if (imageWidth > width) {
@@ -92,7 +92,7 @@ const FullScreenMode = ({ url, isOpen, setIsOpen }: any) => {
               centerOnInit
             >
               <TransformComponent wrapperClass='!w-full !h-full cursor-grab'>
-                <img src={`${process.env.NEXT_PUBLIC_API_DOMAIN}/${url}`} alt='image' className='object-contain w-full h-full' />
+                <img src={`/${url}`} alt='image' className='object-contain w-full h-full' />
               </TransformComponent>
             </TransformWrapper>
           </div>
