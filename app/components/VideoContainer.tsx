@@ -53,12 +53,13 @@ const VideoSection = () => {
           {/* Видео через ReactPlayer */}
           <div className="relative w-full pb-[56.25%]">
             <ReactPlayer
+              light
               url="https://www.youtube.com/watch?v=A-7bVwXTQdE"
               width="100%"
               height="100%"
               className="absolute top-0 left-0 w-full h-full"
               controls
-              playing={false}
+              playing
               config={{
                 youtube: {
                   playerVars: {
