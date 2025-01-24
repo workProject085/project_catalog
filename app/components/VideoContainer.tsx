@@ -72,16 +72,6 @@ const VideoSection = () => {
             />
           </div>
         </div>
-        <div className="mt-4 text-center">
-          <a
-            href="https://www.youtube.com/watch?v=A-7bVwXTQdE"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-500 underline hover:text-blue-700"
-          >
-            Открыть видео в YouTube для максимального качества
-          </a>
-        </div>
       </section>
     </main>
   );
