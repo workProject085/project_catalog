@@ -122,7 +122,7 @@
   {
     "id": 7,
     "name": "Product 61",
-    "type": "type3",
+    "type": "type1",
     "images": [
       "assets/images/061/061_1_1.webp",
       "assets/images/061/061_1_2.webp",
@@ -137,7 +137,7 @@
   {
     "id": 8,
     "name": "Product 62",
-    "type": "type3",
+    "type": "type2",
     "images": [
       "assets/images/062/062_1_1.webp",
       "assets/images/062/062_1_2.webp",
@@ -153,7 +153,7 @@
   {
     "id": 9,
     "name": "Product 7",
-    "type": "type1",
+    "type": "type3",
     "images": [
       "assets/images/07/07_1_1.jpg",
       "assets/images/07/07_1_2.jpg",
@@ -171,7 +171,7 @@
   {
     "id": 10,
     "name": "Product 71",
-    "type": "type3",
+    "type": "type1",
     "images": [
       "assets/images/071/071_1_1.webp",
       "assets/images/071/071_1_2.webp",
