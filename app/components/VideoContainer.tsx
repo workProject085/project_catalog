@@ -54,18 +54,29 @@ const VideoSection = () => {
           <div className="relative w-full pb-[56.25%]">
             <ReactPlayer
               light
-              url="https://www.youtube.com/watch?v=A-7bVwXTQdE"
+              url="https://vimeo.com/1047271237/90482c213e?share=copy"
+              // url="https://www.youtube.com/watch?v=A-7bVwXTQdE"
               width="100%"
               height="100%"
               className="absolute top-0 left-0 w-full h-full"
               controls
-              playing
+              // playing
+              // config={{
+              //   youtube: {
+              //     playerVars: {
+              //       modestbranding: 1, // Убирает логотип YouTube
+              //       rel: 0, // Отключает похожие видео
+              //       vq: "hd1080", // Предпочтительное качество
+              //     },
+              //   },
+              // }}
               config={{
-                youtube: {
-                  playerVars: {
-                    modestbranding: 1, // Убирает логотип YouTube
-                    rel: 0, // Отключает похожие видео
-                    vq: "hd1080", // Предпочтительное качество
+                vimeo: {
+                  playerOptions: {
+                    autoplay: true,
+                    title: false, // Убрать заголовок
+                    byline: false, // Убрать автора
+                    portrait: false, // Убрать аватар
                   },
                 },
               }}
