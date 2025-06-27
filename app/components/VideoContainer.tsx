@@ -88,7 +88,6 @@ const VideoSection = () => {
               src="/assets/videos/tiktok.MP4"
               className="absolute top-0 left-0 w-full h-full"
               controls
-              autoPlay
               muted
               playsInline
             />
