@@ -82,6 +82,17 @@ const VideoSection = () => {
               }}
             />
           </div>
+
+          <div className="relative w-full pb-[56.25%] mt-[10%]">
+            <video
+              src="/assets/videos/tiktok.mp4"
+              className="absolute top-0 left-0 w-full h-full"
+              controls
+              autoPlay
+              muted
+              playsInline
+            />
+          </div>
         </div>
       </section>
     </main>
